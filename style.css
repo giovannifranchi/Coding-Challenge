@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 62%;
+  border-radius: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 40px;
+  padding-bottom: 150px;
+
+}
+
+.headlogo{
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+
+.headlogo > img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.text-logo{
+  text-align: center;
+  margin-top: 15px;
+  color: #00dd00;
+}
+
+.navigation-container{
+  width: 80%;
+  background-color: #00dd00;
+  margin:auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+main{
+  color: white;
+  width: 80%;
+  margin:auto;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.monopattino{
+  margin-top: 20px;
+}
+
+.monopattino > h2{
+  display: inline-block;
+}
+
+.monopattino > h4{
+  font-weight: lighter;
+}
+
+.monopattino > h2 + h4:before{
+  content: "\21A6";
+}
+
+.batteria{
+  height: 20px;
+  border-radius: 5px;
+}
+
+#gino22{
+  width: 400px;
+  background-color: #f5b453;
+}
+
+#mike24{
+  width: 700px;
+  background-color: #1ec31e;
+}
+
+#fede145{
+  width: 150px;
+  background-color: #be4141;
+}
